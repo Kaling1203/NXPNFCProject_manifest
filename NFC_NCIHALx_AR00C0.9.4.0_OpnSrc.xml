@@ -25,7 +25,7 @@
   <project path="nfcandroid_nfc_hidlimpl" name="nfcandroid_nfc_hidlimpl" />
   <project path="nfcandroid_hidlintf_se" name="nfcandroid_hidlintf_se" />
   <project path="nfcandroid_hidlintf_nfc" name="nfcandroid_hidlintf_nfc" />
-  <project path="nfcandroid_frameworks" name="nfcandroid_frameworks" revision="br_android_ncihalx_p" />
+  <!-- <project path="nfcandroid_frameworks" name="nfcandroid_frameworks" revision="br_android_ncihalx_p" /> -->
   <project path="nfcandroid_wiredse" name="nfcandroid_wiredse" revision="master" />
   <project path="NXPNFC_P61_SPI_Services" name="NXPNFC_P61_SPI_Services" />
   <project path="NXPNFC_P61_JCOP_Kit" name="NXPNFC_P61_JCOP_Kit" />
