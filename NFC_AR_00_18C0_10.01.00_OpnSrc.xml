@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote  name="NXPNFCProject"
+           fetch="https://github.com/NXPNFCProject/"
+           review="https://github.com/NXPNFCProject/" />
+  <remote  name="NXP"
+	   fetch="https://github.com/NXP/"
+	   review="https://github.com/NXP/" />
+  <default revision="refs/tags/NFC_AR_00_18C0_10.01.00_OpnSrc"
+           remote="NXPNFCProject"
+           sync-j="4" />
+
+  <!-- NXPNFCProject -->
+  <project path="NXPNFC_Reference" name="NXPNFC_Reference" />
+  <project path="NXPNFC_I2CDriver" name="NXPNFC_I2CDriver" />
+  <project path="NXPESE_SPIDriver" name="NXPESE_SPIDriver" />
+  <!-- <project path="NXPAndroidDTA" name="NXPAndroidDTA" revision="master" /> -->
+  <project path="NFC_NCIHAL_Nfc" name="NFC_NCIHAL_Nfc" />
+  <project path="NFC_NCIHAL_libnfc-nci" name="NFC_NCIHAL_libnfc-nci" />
+  <project path="NFC_NCIHAL_docs" name="NFC_NCIHAL_docs" />
+  <project path="NFC_NCIHAL_base" name="NFC_NCIHAL_base" />
+  <project path="nfcandroid_se_hidlimpl" name="nfcandroid_se_hidlimpl" />
+  <project path="nfcandroid_secureelement" name="nfcandroid_secureelement" />
+  <!-- <project path="nfcandroid_nxp_ese_clients" name="nfcandroid_nxp_ese_clients" revision="master" /> -->
+  <project path="nfcandroid_nfc_hidlimpl" name="nfcandroid_nfc_hidlimpl" />
+  <project path="nfcandroid_hidlintf_se" name="nfcandroid_hidlintf_se" />
+  <project path="nfcandroid_hidlintf_nfc" name="nfcandroid_hidlintf_nfc" />
+  <project path="nfcandroid_frameworks" name="nfcandroid_frameworks" />
+  <!-- <project path="nfcandroid_wiredse" name="nfcandroid_wiredse" revision="master" /> -->
+  <!-- <project path="NXPNFC_P61_SPI_Services" name="NXPNFC_P61_SPI_Services" /> -->
+  <!-- <project path="NXPNFC_P61_JCOP_Kit" name="NXPNFC_P61_JCOP_Kit" /> -->
+  <!-- <project path="NXPNFC_P61_JCOP_Clients" name="NXPNFC_P61_JCOP_Clients" revision="master" /> -->
+
+  <!-- NXP Project -->
+  <project path="nfc-NXPNFCC_FW" name="nfc-NXPNFCC_FW" remote="NXP" />
+  <project path="nfc-test" name="nfc-test" remote="NXP" revision="master" />
+
+</manifest>
